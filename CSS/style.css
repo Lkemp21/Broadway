@@ -26,9 +26,10 @@ a {
 
 nav {
   margin-bottom: 50px;
+  padding: 10px;
 }
 
-.banner, .menu-header {
+#banner, .menu-header {
   background-image: url("../resources/the-flatiron-building.png");
   background-size: cover;
   padding: 10px 0px;
@@ -36,4 +37,13 @@ nav {
 
 .menu-header h3 {
   color: white;
+}
+
+.footer {
+  padding-left: 20px;
+  background-color: dimgray;
+  text-align: left;
+  display: flex;
+  width: 100%;
+  height: 40px;
 }
